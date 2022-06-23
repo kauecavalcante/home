@@ -932,6 +932,19 @@ body.dark-theme {
 
 /* For medium devices */
 
+  .contact__card {
+    justify-content: initial;
+  }
+
+  .subscribe__container {
+    padding: 3rem 13rem;
+  }
+
+  .footer_container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+}
 
 /* For large devices */
 
